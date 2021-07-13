@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20DFFE62692DDCD00048C1E /* CustomizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20DFFE52692DDCD00048C1E /* CustomizingView.swift */; };
+		F20DFFE72692EA4300048C1E /* CustomizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20DFFE52692DDCD00048C1E /* CustomizingView.swift */; };
+		F20DFFE82692EA4A00048C1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B317B2681B01100713C0A /* ContentView.swift */; };
+		F22B316D2681AFF800713C0A /* Showing_LiveData_on_Widget_FiverrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B316C2681AFF800713C0A /* Showing_LiveData_on_Widget_FiverrApp.swift */; };
+		F22B31712681AFF900713C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22B31702681AFF900713C0A /* Assets.xcassets */; };
+		F22B31742681AFF900713C0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22B31732681AFF900713C0A /* Preview Assets.xcassets */; };
+		F22B317C2681B01100713C0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B317B2681B01100713C0A /* ContentView.swift */; };
+		F22B317E2681B01800713C0A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B317D2681B01800713C0A /* Models.swift */; };
+		F22B31802681B02000713C0A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B317F2681B02000713C0A /* ViewModel.swift */; };
+		F22B31882681B06200713C0A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22B31872681B06200713C0A /* WidgetKit.framework */; };
+		F22B318A2681B06200713C0A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22B31892681B06200713C0A /* SwiftUI.framework */; };
+		F22B318D2681B06200713C0A /* LiveDataWeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B318C2681B06200713C0A /* LiveDataWeatherWidget.swift */; };
+		F22B31902681B06200713C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22B318F2681B06200713C0A /* Assets.xcassets */; };
+		F22B31922681B06200713C0A /* LiveDataWeatherWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F22B318E2681B06200713C0A /* LiveDataWeatherWidget.intentdefinition */; };
+		F22B31932681B06200713C0A /* LiveDataWeatherWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F22B318E2681B06200713C0A /* LiveDataWeatherWidget.intentdefinition */; };
+		F22B31962681B06200713C0A /* LiveDataWeatherWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F22B31852681B06200713C0A /* LiveDataWeatherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F22B319B2681B06900713C0A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B317F2681B02000713C0A /* ViewModel.swift */; };
+		F22B319C2681B06D00713C0A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B317D2681B01800713C0A /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22B31942681B06200713C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22B31612681AFF800713C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22B31842681B06200713C0A;
+			remoteInfo = LiveDataWeatherWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F22B319A2681B06200713C0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F22B31962681B06200713C0A /* LiveDataWeatherWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F20DFFE52692DDCD00048C1E /* CustomizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingView.swift; sourceTree = "<group>"; };
+		F22B31692681AFF800713C0A /* Showing LiveData on Widget Fiverr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Showing LiveData on Widget Fiverr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22B316C2681AFF800713C0A /* Showing_LiveData_on_Widget_FiverrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showing_LiveData_on_Widget_FiverrApp.swift; sourceTree = "<group>"; };
+		F22B31702681AFF900713C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22B31732681AFF900713C0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F22B31752681AFF900713C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22B317B2681B01100713C0A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F22B317D2681B01800713C0A /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F22B317F2681B02000713C0A /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F22B31852681B06200713C0A /* LiveDataWeatherWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveDataWeatherWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22B31872681B06200713C0A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F22B31892681B06200713C0A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F22B318C2681B06200713C0A /* LiveDataWeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataWeatherWidget.swift; sourceTree = "<group>"; };
+		F22B318E2681B06200713C0A /* LiveDataWeatherWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LiveDataWeatherWidget.intentdefinition; sourceTree = "<group>"; };
+		F22B318F2681B06200713C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22B31912681B06200713C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22B31662681AFF800713C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22B31822681B06200713C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22B318A2681B06200713C0A /* SwiftUI.framework in Frameworks */,
+				F22B31882681B06200713C0A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22B31602681AFF800713C0A = {
+			isa = PBXGroup;
+			children = (
+				F22B316B2681AFF800713C0A /* Showing LiveData on Widget Fiverr */,
+				F22B318B2681B06200713C0A /* LiveDataWeatherWidget */,
+				F22B31862681B06200713C0A /* Frameworks */,
+				F22B316A2681AFF800713C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F22B316A2681AFF800713C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22B31692681AFF800713C0A /* Showing LiveData on Widget Fiverr.app */,
+				F22B31852681B06200713C0A /* LiveDataWeatherWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22B316B2681AFF800713C0A /* Showing LiveData on Widget Fiverr */ = {
+			isa = PBXGroup;
+			children = (
+				F22B316C2681AFF800713C0A /* Showing_LiveData_on_Widget_FiverrApp.swift */,
+				F22B317B2681B01100713C0A /* ContentView.swift */,
+				F20DFFE52692DDCD00048C1E /* CustomizingView.swift */,
+				F22B317D2681B01800713C0A /* Models.swift */,
+				F22B317F2681B02000713C0A /* ViewModel.swift */,
+				F22B31702681AFF900713C0A /* Assets.xcassets */,
+				F22B31752681AFF900713C0A /* Info.plist */,
+				F22B31722681AFF900713C0A /* Preview Content */,
+			);
+			path = "Showing LiveData on Widget Fiverr";
+			sourceTree = "<group>";
+		};
+		F22B31722681AFF900713C0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22B31732681AFF900713C0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F22B31862681B06200713C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22B31872681B06200713C0A /* WidgetKit.framework */,
+				F22B31892681B06200713C0A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22B318B2681B06200713C0A /* LiveDataWeatherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F22B318C2681B06200713C0A /* LiveDataWeatherWidget.swift */,
+				F22B318E2681B06200713C0A /* LiveDataWeatherWidget.intentdefinition */,
+				F22B318F2681B06200713C0A /* Assets.xcassets */,
+				F22B31912681B06200713C0A /* Info.plist */,
+			);
+			path = LiveDataWeatherWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22B31682681AFF800713C0A /* Showing LiveData on Widget Fiverr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22B31782681AFF900713C0A /* Build configuration list for PBXNativeTarget "Showing LiveData on Widget Fiverr" */;
+			buildPhases = (
+				F22B31652681AFF800713C0A /* Sources */,
+				F22B31662681AFF800713C0A /* Frameworks */,
+				F22B31672681AFF800713C0A /* Resources */,
+				F22B319A2681B06200713C0A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22B31952681B06200713C0A /* PBXTargetDependency */,
+			);
+			name = "Showing LiveData on Widget Fiverr";
+			productName = "Showing LiveData on Widget Fiverr";
+			productReference = F22B31692681AFF800713C0A /* Showing LiveData on Widget Fiverr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22B31842681B06200713C0A /* LiveDataWeatherWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22B31972681B06200713C0A /* Build configuration list for PBXNativeTarget "LiveDataWeatherWidgetExtension" */;
+			buildPhases = (
+				F22B31812681B06200713C0A /* Sources */,
+				F22B31822681B06200713C0A /* Frameworks */,
+				F22B31832681B06200713C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveDataWeatherWidgetExtension;
+			productName = LiveDataWeatherWidgetExtension;
+			productReference = F22B31852681B06200713C0A /* LiveDataWeatherWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22B31612681AFF800713C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F22B31682681AFF800713C0A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F22B31842681B06200713C0A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F22B31642681AFF800713C0A /* Build configuration list for PBXProject "Showing LiveData on Widget Fiverr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22B31602681AFF800713C0A;
+			productRefGroup = F22B316A2681AFF800713C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22B31682681AFF800713C0A /* Showing LiveData on Widget Fiverr */,
+				F22B31842681B06200713C0A /* LiveDataWeatherWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22B31672681AFF800713C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22B31742681AFF900713C0A /* Preview Assets.xcassets in Resources */,
+				F22B31712681AFF900713C0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22B31832681B06200713C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22B31902681B06200713C0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22B31652681AFF800713C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22B31932681B06200713C0A /* LiveDataWeatherWidget.intentdefinition in Sources */,
+				F20DFFE62692DDCD00048C1E /* CustomizingView.swift in Sources */,
+				F22B317E2681B01800713C0A /* Models.swift in Sources */,
+				F22B317C2681B01100713C0A /* ContentView.swift in Sources */,
+				F22B31802681B02000713C0A /* ViewModel.swift in Sources */,
+				F22B316D2681AFF800713C0A /* Showing_LiveData_on_Widget_FiverrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22B31812681B06200713C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22B318D2681B06200713C0A /* LiveDataWeatherWidget.swift in Sources */,
+				F22B319B2681B06900713C0A /* ViewModel.swift in Sources */,
+				F20DFFE82692EA4A00048C1E /* ContentView.swift in Sources */,
+				F20DFFE72692EA4300048C1E /* CustomizingView.swift in Sources */,
+				F22B31922681B06200713C0A /* LiveDataWeatherWidget.intentdefinition in Sources */,
+				F22B319C2681B06D00713C0A /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22B31952681B06200713C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22B31842681B06200713C0A /* LiveDataWeatherWidgetExtension */;
+			targetProxy = F22B31942681B06200713C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F22B31762681AFF900713C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22B31772681AFF900713C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22B31792681AFF900713C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Showing LiveData on Widget Fiverr/Preview Content\"";
+				DEVELOPMENT_TEAM = 223M3W38C5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Showing LiveData on Widget Fiverr/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "G-W.de.Showing-LiveData-on-Widget-Fiverr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22B317A2681AFF900713C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Showing LiveData on Widget Fiverr/Preview Content\"";
+				DEVELOPMENT_TEAM = FP2J69S4GY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Showing LiveData on Widget Fiverr/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "G-W.de.Showing-LiveData-on-Widget-Fiverr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22B31982681B06200713C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LiveDataWeatherWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "G-W.de.Showing-LiveData-on-Widget-Fiverr.LiveDataWeatherWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22B31992681B06200713C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LiveDataWeatherWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "G-W.de.Showing-LiveData-on-Widget-Fiverr.LiveDataWeatherWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22B31642681AFF800713C0A /* Build configuration list for PBXProject "Showing LiveData on Widget Fiverr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22B31762681AFF900713C0A /* Debug */,
+				F22B31772681AFF900713C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22B31782681AFF900713C0A /* Build configuration list for PBXNativeTarget "Showing LiveData on Widget Fiverr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22B31792681AFF900713C0A /* Debug */,
+				F22B317A2681AFF900713C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22B31972681B06200713C0A /* Build configuration list for PBXNativeTarget "LiveDataWeatherWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22B31982681B06200713C0A /* Debug */,
+				F22B31992681B06200713C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22B31612681AFF800713C0A /* Project object */;
+}
