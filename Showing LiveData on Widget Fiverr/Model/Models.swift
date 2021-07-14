@@ -2,6 +2,8 @@
 
 
 import Foundation
+import UIKit
+import SwiftUI
 
 //Hier legen wir die Daten ab
 
@@ -19,4 +21,16 @@ struct CurrentWeather: Codable {
 struct WeatherInfo: Codable {
     let main: String
     let description: String
+}
+
+//By jaykishan
+
+struct savedWeatherData : Codable { //Local sava data structure
+    
+    let title: String
+    let descriptionText: String
+    let temp: String
+    let timezone: String
+    let tempFont : CGFloat
+    let tempDetailFont : CGFloat
 }

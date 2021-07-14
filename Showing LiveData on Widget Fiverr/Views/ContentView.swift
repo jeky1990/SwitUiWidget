@@ -1,9 +1,11 @@
 
 
 import SwiftUI
+import WidgetKit
 
 struct ContentView: View {
-    @StateObject var viewModel = WeatherViewModel()
+    
+    @ObservedObject var viewModel = WeatherViewModel()
     
     var body: some View {
         NavigationView{
@@ -18,24 +20,24 @@ struct ContentView: View {
                 .font(.system(size: 24))
 
 
-                NavigationLink(destination: CustomizingView()){
-                        Text("Change Widget Design")
-                            .bold()
-                            .font(.system(size: 16))
-                            .foregroundColor(.red)
-                            .background(Color.blue)
-                        
-                        Spacer()
+                NavigationLink(destination: CustomizingView(WeatherDataModel: viewModel)){
+                    Text("Change Widget Design")
+                        .bold()
+                        .font(.system(size: 16))
+                        .foregroundColor(.red)
+                        .background(Color.blue)
+                    
+                    Spacer()
                     
                 }.padding()
                 
             }
-
+            
             .navigationTitle("Weather New York")
-            
-            
         }
-        
+        .onDisappear {
+            WidgetCenter.shared.reloadAllTimelines()
+        }
     }
 }
 
